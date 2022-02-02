@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <style>
+    /* pcss1 codeparis */
+        .blur h1{ font-size:60px;
+           color:orangered;
+           text-align:center;}
+        span{background-color: orangered;
+            padding:4px 4px ;
+            border-radius:10px;
+            color:white;
+            }
+        .box{
+         font-size: 25px;
+         border-color: brown;
+         border-style: groove;
+         box-shadow:10px 10px 15px brown;
+         width: 400px;
+         height:400px;
+         border-radius: 10px;
+         display:inline-block;
+         text-align:center;
+         margin-top:50px
+         
+        }
+    h2{color: red;
+         text-align:center;
+        margin-top: 45px;}
+         
+    del{color: orangered;}
+    del{color: orangered;}
+    hr{width:50%;
+          color:brown;}
+    i  {background-color: orangered;
+        color:white;
+       border-radius: 10px;
+       float: right;
+       margin-right:70px;
+       margin-top:100px; }
+    /* end */
+    .blur{filter: blur(8px);
+          text-align: center;
+         }
+        .a{ border:5px;
+           border-color: orangered;
+          width:400px;
+          height:200px;
+          position: absolute;
+          bottom: 250px;
+          border-style: groove;
+          border-radius:25px;
+          left:540px;
+          background-color: white;
+          }
+
+    h1{color:orangered;
+    font-size:30px;}
+    button{color:white;
+    font-size:20px;
+    background-color: orangered;
+     width:80px;
+    height: 40px;
+    
+    border-radius:15px;}
+    input{border-color: orange;
+     } 
+    </style>
+</head>
+<body>
+    <!-- blur part -->
+    <div class="blur">
+    <h1>TRIP  TO  PARIS</h1>
+    <center>
+       <a href="./pcss.html"><span class="material-icons">
+        arrow_back
+        </span></a>
+        <b style="font-size:35px">Back</b>
+        <br>
+    <div class="box">
+        <h2>Trip to Paris</h2>
+        <hr>
+        <br>
+        <del>Completed Task</del><br><br>
+        <label for="check">Pending Task</label>
+        <input type="checkbox" id="check"><br>
+        <a href="./pcss3.html">
+           <i class="material-icons">
+            add_circle_outline</i>
+        </a>
+    </div>
+    </center>
+    </div>
+    <!-- end blur part -->
+
+    <center>
+    <div class="a">
+        <h1>Add New Item</h1>
+<label for="box" ></label>
+<input type="text" id="box" value="" name="item"><br>
+<br>
+<button>ADD</button>
+    </div>
+    </center>
+</body>
+</html>
